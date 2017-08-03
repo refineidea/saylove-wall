@@ -32,3 +32,9 @@ https://pingxonline.com/app/saylove/
 当然，这个网站会有许许多多的BUG，欢迎大家一起来完善。
 
 ## 更新历史
+
+
+## 界面
+![](https://pingxonline.com/wp-content/uploads/2017/08/1.png)
+![](https://pingxonline.com/wp-content/uploads/2017/08/2.png)
+![](https://pingxonline.com/wp-content/uploads/2017/08/3.png)
