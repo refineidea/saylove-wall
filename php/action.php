@@ -39,7 +39,7 @@
             $send = new sendEmail();
             $send->sendOut($connectDBS->link, $say->uid, $email);
           }
-          $url = "http://qq597914752.gotoip1.com/app/saylove/share.php?id=".$say->uid;
+          $url = "hhttps://pingxonline.com//app/saylove/share.php?id=".$say->uid;
           echo '点击链接查看你的表白：<br><a target="_blank" href='.$url.'>'.$url.'</a><br>';
         }else {
           // echo json_encode("你很棒棒哦？");
