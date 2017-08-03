@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <title>表白</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" media="screen" title="no title">
+    <script src="js/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <script src="js/jquery.mobile-1.4.5.min.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="css/homepage.css" media="screen" title="no title">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" media="screen" />
+    <script src="js/submit.js" charset="utf-8"></script>
+</head>
+
+<body>
+  <div id="Header" class="Header" data-role="header">
+    <!-- <img src="images/logo.png" class="Header-logo" width="100%" height="400px"  alt=""/> -->
+    <img src="images/title.png" class="Header-title" width="250px" alt="广西科技大学表白墙" />
+    <!-- <img src="images/icon/logo2.png" alt="" /> -->
+    <!-- <h1>科大表白墙</h1> -->
+  </div>
+  <div class="main-body" id="saylove-box" data-role="content">
+    <!-- <form id="saylove-box" class="" action="" method="post"> -->
+      <label for="nickName">你的昵称</label>
+      <input type="text" name="nickName" id="nickName" value="">
+      <label for="trueName">你的真名</label>
+      <input type="text" name="trueName" id="trueName" value="">
+      <p class="guess-hint">
+        注：真名保密不显示！可以参加紧张刺激的猜名字游戏！详细介绍请点击查看：<a style="color:#333;" href="help.html">帮助</a>
+      </p>
+      <select class="gender-Type" id="genderType" name="type">
+        <option value="male">男</option>
+        <option value="female">女</option>
+        <option value="secrecy">保密</option>
+      </select>
+      <label for="towho">TA的名字、选择性别</label>
+      <input type="text" name="towho" id="towho" value="">
+      <select class="itsGender-Type" id="itsGenderType" name="type">
+        <option value="female">女</option>
+        <option value="male">男</option>
+        <option value="secrecy">保密</option>
+      </select>
+      <label for="email">TA的邮箱(选填)</label>
+      <input type="text" name="email" id="email" value="" placeholder="填写QQ号码或账号，如：597914752">
+      <select class="email-Type" id="emailType" name="type">
+        <option value="@qq.com">@qq.com</option>
+        <option value="@163.com">@163.com</option>
+        <option value="@hotmail.com">@hotmail.com</option>
+        <option value="@gmail.com">@yahoo.com</option>
+        <option value="@gmail.com">@gmail.com</option>
+      </select>
+      <p class="guess-hint">注：邮箱保密不显示！系统可以代发一封提示邮件！查看：<a style="color:#333;" href="help.html">帮助</a></p>
+      <label for="contents">表白的内容</label>
+      <textarea name="contents" id="contents" onkeyup="words_deal()"></textarea>
+      <p id="textCountBox">
+        剩余<span id="textCount">520</span>个字
+      </p>
+      <p id="Hint"></p>
+
+      <!-- <input type="submit" id="submit" name="submit" value="提交"> -->
+      <a href="#hint" data-rel="popup" id="submit" class="ui-btn ui-btn-inline ui-corner-all" data-position-to="window" data-transition="pop">提交</a>
+      <div data-role="popup" id="hint" class="ui-content" data-overlay-theme="b">
+        <img src="images/icon/heart.gif" alt="" />
+      </div>
+    <!-- </form> -->
+  </div>
+  <div data-role="footer" id="footer" data-position="fixed" data-fullscreen="true" data-tap-toggle="false">
+    <div class="" data-role="navbar">
+      <ul>
+        <li><a href="index.php" data-ajax='false' data-transition="slide" data-direction="reverse" data-role="button" data-icon="article" class="ui-icon-article" data-iconpos="notext"></a></li>
+        <li><a href="saylove.html" data-ajax='false' data-role="button" data-icon="heartNow" class="ui-icon-heart" data-iconpos="notext"></a></li>
+        <li><a href="search.html" data-ajax='false' data-role="button" data-icon="search" class="ui-icon-search" data-iconpos="notext"></a></li>
+        <li><a href="help.html" data-ajax='false' data-role="button" data-icon="help" class="ui-icon-help" data-iconpos="notext"></a></li>
+      </ul>
+    </div>
+
+  </div>
+
+</body>
+
+</html>

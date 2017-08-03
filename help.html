@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <title>表白</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" media="screen" title="no title">
+    <script src="js/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <script src="js/jquery.mobile-1.4.5.min.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="css/homepage.css" media="screen" title="no title">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" media="screen" />
+    <script src="js/submit.js" charset="utf-8"></script>
+</head>
+
+<body>
+    <div id="Header" class="Header" data-role="header">
+      <!-- <img src="images/logo.png" class="Header-logo" width="100%" height="400px"  alt=""/> -->
+      <img src="images/title.png" class="Header-title" width="250px" alt="广西科技大学表白墙" />
+        <!-- <img src="images/icon/logo2.png" alt="" /> -->
+        <!-- <h1>科大表白墙</h1> -->
+    </div>
+    <div class="main-body" id="help-box" data-role="content">
+      <h2>帮助</h2>
+      <h4>
+        主要功能：
+      </h4>
+      <ol>
+        <li>发起表白</li>
+        <li>系统代发邮件通知被表白者</li>
+        <li>性别的选择（男女、男男、女女、保密）</li>
+        <li>表白点赞</li>
+        <li>表白评论</li>
+        <li>猜名字</li>
+        <li>分享表白</li>
+        <li>搜索表白</li>
+        <li>可以选择浏览的排序方式</li>
+      </ol>
+      <h4>
+        功能介绍：
+      </h4>
+      <h5>
+        发起表白
+      </h5>
+      <p>
+        该功能需要填写你的昵称、你的真名（绝不泄露）、选择性别、TA的名字、TA的性别、表白内容。邮箱是可选填写，如果填写了，系统会代发一封邮件到对方邮箱账号，默认填写对方的QQ号码即可，自动补全邮箱后缀，此邮件只包含该表白的链接，不包含其他信息。
+      </p>
+      <p>
+        你的真名和对方的邮箱绝不公开！
+      </p>
+      <h5>
+        邮件发送
+      </h5>
+      <p>
+        该功能是可选的，不想发送邮件就留空，默认填写对方QQ即可。如果邮箱发送失败，系统会在稍后重新发送，请放心！
+      </p>
+      <h5>
+        搜索表白
+      </h5>
+      <p>
+        能够同时搜索表白发起者和被表白者的名字
+      </p>
+      <h5>
+        蓝/红/黑下划线说明
+      </h5>
+      <p class="male">
+        蓝色下划线：是男生
+      </p>
+      <p class="female">
+        红色下划线：是女生
+      </p>
+      <p class="secrecy">
+        黑色下划线：性别保密
+      </p>
+      <h5>
+      <img src="images/icon/dianzan.png" alt="" />
+        点赞功能
+      </h5>
+      <p>
+        每隔60秒就能给表白点赞，能够影响按照点赞的数的排名。
+      </p>
+      <h5>
+        <img src="images/icon/jingcai.png" alt="" />
+        猜名字功能
+      </h5>
+      <p>
+        为了增加互动性，在填写表白的时候需要填写你的真名或别称或一个辨识度比较高的名字，可以让被表白者猜一猜这个名字，每次猜名字都会反馈输入的名字和真实的名字的相似度，这个相似度可以判断自己的输入是否接近真名。如果不想参加该游戏，随便填写一个名字即可。
+      </p>
+      <h5>
+        <img src="images/icon/pinglun.png" alt="" />
+        评论功能
+      </h5>
+      <p>
+        可以评论表白，增加互动，绝不暴露真实IP地址。
+      </p>
+      <h5>
+        <img src="images/icon/fenxiang.png" alt="" />
+        分享功能
+      </h5>
+      <p>
+        想让朋友查看这条表白？那就选择分享功能吧！复制链接发给好友即可完成分享！
+      </p>
+      <h4>
+        首页底部按钮介绍：
+      </h4>
+      <h5>
+        <img src="css/images/icons-png/arrow-l-black.png" alt="" />
+        上一页
+      </h5>
+      <p>
+        返回上一页
+      </p>
+      <h5>
+        <img src="css/images/icons-png/bars-black.png" alt="" />
+        选择排序方式
+      </h5>
+      <p>
+        提供了按照时间，点赞数和随机显示的排序方式
+      </p>
+      <h5>
+        <img src="css/images/icons-png/carat-u-black.png" alt="" />
+        返回顶部
+      </h5>
+      <p>
+        跳转到网页的顶部
+      </p>
+      <h5>
+        <img src="css/images/icons-png/arrow-r-black.png" alt="" />
+        下一页
+      </h5>
+      <p>
+        跳转下一页
+      </p>
+      <br>
+      <h5>
+        该网站纯属娱乐，不承担任何后果和法律责任！
+      </h5>
+      <h5>
+        团队：Kipa工作室
+      </h5>
+      <h5>
+        开发者：梁嘉平（平兄）<br>
+        博客： <a href="https://pingxonline.com/">https://pingxonline.com/</a>
+        <br>
+        QQ：597914752
+      </h5>
+      <h5>特别鸣谢</h5>
+      <p>
+        广西科技大学易班工作站（已在易班客户端上线！）
+      </p>
+      <p>
+        启梦创新社
+      </p>
+      <h5>其他</h5>
+      <p>
+        UI设计顾问：广西科技大学易班工作站传媒部
+      </p>
+      <h4>更新历史</h4>
+      <h5>
+        2016-11-09
+      </h5>
+      <p>
+        1. 网站正式上线
+      </p>
+      <p>
+        2. 添加页码和表白数显示
+      </p>
+      <h5>
+        2016-11-10
+      </h5>
+      <p>
+        1. 优化搜索功能，现在可以不用输入全称来匹配了，如：搜索小明，现在你只需要输入“小”或者“明”都可以搜索得到这条表白了。
+      </p>
+      <p>
+        2. 未发送成功的邮件，系统会在稍后重新发送，确保邮件到达对方邮箱！
+      </p>
+
+      <h5>
+        2017-5-10
+      </h5>
+      <p>
+        1. 网站于陕西科技大学上线
+      </p>
+    </div>
+    <div data-role="footer" id="footer" data-position="fixed" data-fullscreen="true" data-tap-toggle="false">
+        <div class="" data-role="navbar">
+            <ul>
+                <li>
+                    <a href="index.php" data-ajax='false' data-transition="slide" data-direction="reverse" data-role="button" data-icon="article" class="ui-icon-article" data-iconpos="notext"></a>
+                </li>
+                <li>
+                    <a href="saylove.html" data-ajax='false' data-role="button" data-icon="heart" class="ui-icon-heart" data-iconpos="notext"></a>
+                </li>
+                <li>
+                    <a href="search.html" data-ajax='false' data-role="button" data-icon="search" class="ui-icon-search" data-iconpos="notext"></a>
+                </li>
+                <li>
+                    <a href="help.html" data-ajax='false' data-role="button" data-icon="helpNow" class="ui-icon-help" data-iconpos="notext"></a>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
