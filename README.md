@@ -6,7 +6,7 @@
 于是，我就把此网站开源了，希望能对同学们有帮助。
 
 ## 链接
-http://qq597914752.gotoip1.com/app/saylove/
+https://pingxonline.com/app/saylove/
 
 ## 主要特性
 - 发起表白
