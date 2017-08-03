@@ -15,6 +15,8 @@ https://pingxonline.com/app/saylove/
 - 点赞
 - 分享
 - 评论
+- 猜名字
+- 性别区分
 - 邮件通知被表白者
 
 ## 目的
