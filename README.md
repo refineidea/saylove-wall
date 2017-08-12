@@ -25,11 +25,13 @@ https://pingxonline.com/app/saylove/
 ## 快速使用
 
 1. 数据库链接配置： share.php, action.php, auth.php
-2. 邮件服务配置： email.php
+2. 邮件服务配置： email.php (需要QQ邮箱开启相关邮件服务和设置一个独立密码，使用独立密码进行登录)
 
 3. 导入数据库文件。
 
-当然，这个网站会有许许多多的BUG，欢迎大家一起来完善。
+4. 分享链接生成：修改display.js文件
+
+这个网站会有许许多多的BUG，欢迎大家一起来完善。
 
 ## 更新历史
 
