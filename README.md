@@ -26,14 +26,17 @@ https://pingxonline.com/app/saylove/
 
 1. 数据库链接配置:
       修改connect.php中的
+      <code>
       
-      // $host = '127.0.0.1'; // 数据库地址
+	// $host = '127.0.0.1'; // 数据库地址
       
 	// $user = 'root';  // 数据库用户名字
 	
 	// $pass = '';   // 数据库链接密码
 	
 	// $db_name = 'wishingwall'; // 链接的数据库名字
+	
+	</code>
 			
       并把斜杠注释去掉，其他地方链接无需修改。
       
